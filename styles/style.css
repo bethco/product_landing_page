@@ -1,0 +1,76 @@
+/*****************************************************************************
+**
+**    Title:      style.css
+**    Project:    Product Landing Page
+**    Author:     Bethany Cohen
+**    Contact:    <deskofbethany@gmail.com>
+**    GitHub:     https://github.com/bethco
+        TEST PASSED
+** 
+*****************************************************************************/
+header{
+    /*position:fixed;*/
+    top:0px;
+    width: auto;
+    height: auto;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: black;
+    opacity: 0.7;*/
+}
+
+header h1 {
+    color: #457b9d;
+    font-family: 'Amatic SC', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 5em;
+    border: dotted 5px white;
+    margin-right: 25px;
+}
+
+header nav ul {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 80%;
+    list-style: none;
+    border: dotted 5px white;
+    margin: 1em;
+    padding: 30px 30px;
+}
+
+header img {
+    height: auto;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: solid #e63946 15px;
+    border-radius: 50px;
+}
+
+@media (max-width: 500px){}
+
+body {
+    /*flex-wrap: wrap;*/
+    flex-wrap: inherit;
+    background-color: #a8dadc;
+    font-family: 'Amatic SC', Arial, Helvetica, sans-serif;  
+}
+
+#video {
+    align-items: center;
+    border: dotted 10px white;
+    margin: 1em;
+    padding: 30px 30px;
+}
+
+footer {
+    border: dotted 10px white;
+    margin: 5em;
+    padding: 30px 30px;
+    align-items: flex-end;
+}
+ 

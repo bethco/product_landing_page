@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+  --    Title:      index.html
+  --    Project:    Product Landing Page
+  --    Author:     Bethany Cohen
+  --    Contact:    <deskofbethany@gmail.com>
+  --    GitHub:     https://github.com/bethco
+  --          TEST PASSED
+  -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+
+        <!-- CSS -->
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <!-- Javascript -->
+        <script src="scripts/main.js" type="text/javascript"></script>
+
+    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    
+    <header id="header">
+     
+        <h1>morton salt</h1>
+    
+        <img
+        src="https://www.pngkey.com/png/detail/320-3203365_morton-salt-distributor-since-morton-salt-girl-svg.png"
+        alt="morton salt girl" 
+        boader="0"
+        id="header-img"
+        width="200px"
+        >
+        <nav id="nav-bar" class="navbar">
+            <ul>
+                <li><a class="nav-link" href="#culinary">culinary</a></li>
+                <li><a class="nav-link" href="#watersoftening">water softening</a></li>
+                <li><a class="nav-link" href="#snow&icemelt">snow & ice melt</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+    
+    
+    <body>
+        <section id="culinary">
+            <div id="saltonfood" style="width: 100% overflow hidden">
+            
+                <iframe 
+                    id="video"
+                    width="auto"
+                    height="auto"
+                    src="https://www.youtube.com/watch?v=uAQQ2mWw_6E"
+                    alt="ways to cook with salt"
+                    frameborder="0"
+                    allow="autoplay: encrypted-media"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section id="watersoftening">
+        </section>
+
+        <section id="snow&icemelt">
+        </section>
+    </body>
+
+    <footer>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input
+                id="textarea"
+                type="textarea"
+                name="text"
+                placeholder="Your name here:"
+                class="text"
+                required>
+            <textarea 
+                id="textarea" 
+                name="question?" 
+                placeholder="Have a comment or question?" 
+                rows="15" cols="65">
+            </textarea>
+         
+            <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="email.here@gmail.com"
+                class="email"
+                required>
+     
+            <input
+                id="submit"
+                type="submit"
+                value="Ask Now"
+                class="submit">
+        </form>
+    </footer>
+</html>
