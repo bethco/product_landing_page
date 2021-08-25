@@ -31,11 +31,12 @@ header h1 {
 }
 
 header nav ul {
-    position: fixed;
+
+    position: initial;
     width: 100%;
     top: 0;
     left: 80%;
-    list-style: none;
+    list-style: none
     border: dotted 5px white;
     margin: 1em;
     padding: 30px 30px;
